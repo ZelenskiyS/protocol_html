@@ -1,0 +1,29 @@
+.nav {
+  width: 1440px;
+  height: 48px;
+  background: #BD462B;
+  box-sizing: border-box;
+  padding: 0 174px;
+}
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav_list__item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.nav_list__item a:hover {
+  background: #E45332;
+}
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,17 @@
+.section2 {
+  height: 613px;
+  background: #F4F0EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section2_heading {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+/*# sourceMappingURL=section2.css.map */

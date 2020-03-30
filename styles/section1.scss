@@ -1,0 +1,58 @@
+.section1{
+  height: 467px;
+  width: 1440px;
+  box-sizing: border-box;
+  padding: 16px 150px 122px 150px;
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  grid-template-areas:
+          "empty  img"
+          "heading  img"
+          "paragraph img"
+          "button  img";
+  &_heading{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #383838;
+    grid-area:heading;
+  }
+  &_paragraph{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #383838;
+    grid-area:paragraph;
+  }
+  &_button{
+    background: #F2C25B;
+    border-radius: 4px;
+    width: 307px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    grid-area:button;
+    &:hover{
+      background: #FFCC60;
+    }
+    &__link{
+      text-decoration: none;
+      color:black;
+      font-family: Roboto, serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;;
+    }
+  }
+
+  &_img{
+    grid-area:img;
+    background: url("../img/man_idea.svg");
+    width: 365px;
+    height: 405px;
+  }
+}

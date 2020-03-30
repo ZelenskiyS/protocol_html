@@ -1,0 +1,55 @@
+.section1 {
+  height: 467px;
+  width: 1440px;
+  box-sizing: border-box;
+  padding: 16px 150px 122px 150px;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-areas: "empty  img" "heading  img" "paragraph img" "button  img";
+}
+.section1_heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #383838;
+  grid-area: heading;
+}
+.section1_paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #383838;
+  grid-area: paragraph;
+}
+.section1_button {
+  background: #F2C25B;
+  border-radius: 4px;
+  width: 307px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  grid-area: button;
+}
+.section1_button:hover {
+  background: #FFCC60;
+}
+.section1_button__link {
+  text-decoration: none;
+  color: black;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+.section1_img {
+  grid-area: img;
+  background: url("../img/man_idea.svg");
+  width: 365px;
+  height: 405px;
+}
+
+/*# sourceMappingURL=section1.css.map */

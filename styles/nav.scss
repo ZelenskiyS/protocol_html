@@ -1,0 +1,29 @@
+.nav{
+  width: 1440px;
+  height: 48px;
+  background:  #BD462B;
+  box-sizing: border-box;
+  padding: 0 174px;
+  &_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    &__item{
+      & a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.4s;
+        &:hover{
+          background: #E45332;
+        }
+      }
+    }
+  }
+}

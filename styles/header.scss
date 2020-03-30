@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  width: 1440px;
+  height: 112px;
+  padding: 0 150px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+    &_logo{
+      background: url("../img/logo_Protocol.svg");
+      width: 223.85px;
+      height: 69.67px;
+
+  }
+  &_search{
+    display: flex;
+    width: 420px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-right: 114px;
+    &__searchButton{
+      width: 40px;
+      border: 1px solid #D8D8D8;
+      border-right:none;
+      box-sizing: border-box;
+      text-align: center;
+      color: #fff;
+      border-radius: 4px 0 0 4px;
+      cursor: pointer;
+      font-size: 20px;
+      background: #F7F7F7 url("../img/search (2) 1.svg") no-repeat center;
+    }
+    &__searchTerm{
+      width: 100%;
+      border: 1px solid #D8D8D8;
+      background: #F7F7F7;
+      border-left: none;
+      padding: 5px;
+      border-radius: 0 5px 5px 0;
+      outline: none;
+      color: black;
+    }
+  }
+  &_registration{
+    display: flex;
+    background: #F2C25B;
+    border-radius: 4px;
+    width: 177px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    transition:0.4s;
+    &:hover{
+      background: #FFCC60;
+    }
+    & a{
+      text-decoration: none;
+      color: black;
+
+    }
+  }
+  &_enter{
+    margin-left: 17px;
+    display: flex;
+    background: #BD462B;
+    border-radius: 4px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    &:hover{
+      background: #B62C0C;;
+    }
+    & a{
+      text-decoration: none;
+      color:white;
+    }
+  }
+}
+
+select{
+  margin-left: 25px;
+  margin-right: 13px;
+  width: 60px;
+  height: 37.5px;
+  background: #F5F5F5;
+  box-shadow: 3px 3px 80px rgba(55, 84, 170, 0.1), -3px -3px 80px #FFFFFF, inset 4px 4px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  border:1px solid #D8D8D8;
+  font-size: 16px;
+}
+
+
