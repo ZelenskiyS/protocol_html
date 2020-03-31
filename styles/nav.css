@@ -1,9 +1,9 @@
 .nav {
-  width: 1440px;
+  max-width: 1440px;
   height: 48px;
   background: #BD462B;
   box-sizing: border-box;
-  padding: 0 174px;
+  padding: 0 12vw;
 }
 .nav_list {
   display: flex;

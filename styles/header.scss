@@ -4,24 +4,23 @@ body{
 }
 
 .header{
-  width: 1440px;
+  max-width: 1440px;
   height: 112px;
-  padding: 0 150px;
+  padding: 0 10.5vw;
   box-sizing: border-box;
   display: flex;
   align-items: center;
     &_logo{
       background: url("../img/logo_Protocol.svg");
-      width: 223.85px;
+      min-width: 223.85px;
       height: 69.67px;
-
   }
   &_search{
     display: flex;
     width: 420px;
     height: 40px;
     box-sizing: border-box;
-    margin-right: 114px;
+    margin-right: 8vw;
     &__searchButton{
       width: 40px;
       border: 1px solid #D8D8D8;
@@ -64,7 +63,7 @@ body{
     }
   }
   &_enter{
-    margin-left: 17px;
+    margin-left: 1.2vw;
     display: flex;
     background: #BD462B;
     border-radius: 4px;
@@ -85,8 +84,8 @@ body{
 }
 
 select{
-  margin-left: 25px;
-  margin-right: 13px;
+  margin-left: 1.7vw;
+  margin-right: 1vw;
   width: 60px;
   height: 37.5px;
   background: #F5F5F5;

@@ -1,6 +1,7 @@
 .section3{
   font-family: 'Open Sans', sans-serif;
-  padding: 40px 150px;
+  max-width: 1440px;
+  padding: 2.8vw 10.4vw;
   &_flexbox1{
     display: flex;
 
@@ -17,9 +18,9 @@
     flex-direction: column;
     padding-top: 81px;
     height: 608px;
-    width: 370px;
+    width: 26.4vw;
     background: #F4F4F4;
-    margin-right: 15px;
+    margin-right: 1vw;
     &__img{
       margin-bottom: 74px;
     }
