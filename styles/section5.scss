@@ -1,0 +1,36 @@
+.section5{
+  max-width: 1440px;
+  height: 613px;
+  padding: 2.8vw 10.4vw;
+  font-family: "Open Sans", sans-serif;
+    &_heading{
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+      color: #383838;
+    }
+    &_paragraph{
+      font-size: 18px;
+      line-height: 25px;
+      color: #383838;
+    }
+    &_button {
+      cursor: pointer;
+      background: #F2C25B;
+      border-radius: 4px;
+      width: 152px;
+      height: 48px;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.4s;
+      &:hover{
+        background: #FFCC60;
+      }
+    }
+  }
