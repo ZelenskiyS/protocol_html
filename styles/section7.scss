@@ -1,0 +1,49 @@
+.section7{
+  padding:  3.5vw 10.4vw 0 10.4vw ;
+  font-family: "Open Sans", sans-serif;
+  &_heading{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #383838;
+  }
+  &_counters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #383838;
+    &_counter{
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      & i{
+        font-size: 40px;
+        color: #333;
+      }
+    }
+  }
+  &_linkBlock{
+    display: flex;
+    flex-direction: column;
+    &__link{
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #383838;
+      text-decoration: none;
+
+    }
+  }
+}
+
+.num{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 87px;
+  color: #BD462B;
+}

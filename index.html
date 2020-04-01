@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="styles/section3.css">
     <link rel="stylesheet" href="styles/section4.css">
     <link rel="stylesheet" href="styles/section5.css">
+    <link rel="stylesheet" href="styles/section6.css">
+    <link rel="stylesheet" href="styles/section7.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     <title>Протокол</title>
 </head>
 <body>
@@ -88,11 +93,83 @@
         <img src="img/profile_crm%201.svg" alt="profile">
     </section>
     <section class="section5">
+        <div class="secciton5_box">
         <h2 class="section5_heading">Юридическая помощь украинцам за рубежом</h2>
         <p class="section5_paragraph">Порой заробитчане да и не только, нуждаються в юридической помощи за рубежом. Наш сервис поможет Вам найти ответы в дебрях зарубежной юриспруденции.</p>
         <div class="section5_button">Узнать больше</div>
-        <img src="img/police.svg" alt="police">
+        </div>
+        <img class="section5_ img" src="img/police.svg" alt="police">
     </section>
-<div class="end">END!!!!!!!</div>
+    <section class="section6">
+        <h2 class="section6_heading">Информация и аналитика</h2>
+        <div class="section6_flexbox">
+        <div class="section6_newsBlock">
+            <img class="section6_newsBlock__img" src="img/newspaper.svg" alt="newspaper">
+            <h3 class="section6_newsBlock__heading">Новости и события</h3>
+            <a class="section6_newsBlock__link" href="#">Новости от протокола</a>
+            <a class="section6_newsBlock__link" href="#">Актуальные и юридические новости</a>
+            <a class="section6_newsBlock__link" href="#">Интервью</a>
+            <a class="section6_newsBlock__link" href="#">Общие консультации</a>
+            <a class="section6_newsBlock__link" href="#">События</a>
+            <a class="section6_newsBlock__link" href="#">Таблоид</a>
+            <a class="section6_newsBlock__link" href="#">Видео</a>
+        </div>
+        <div class="section6_dataBlock">
+            <img class="section6_dataBlock__img" src="img/file-system.svg" alt="newspaper">
+            <h3 class="section6_dataBlock__heading">Базы и справочники</h3>
+            <a class="section6_dataBlock__link" href="#">Решение ЕСПЧ (Украина и Россия)</a>
+            <a class="section6_dataBlock__link" href="#">База судебных решений "Протокол"</a>
+            <a class="section6_dataBlock__link" href="#">Коментированные кодексы и законы</a>
+            <a class="section6_dataBlock__link" href="#">Справочники протокол</a>
+        </div>
+        <div class="section6_analytics">
+            <img class="section6_analytics__img" src="img/analytics.svg" alt="analytics">
+            <h3 class="section6_analytics__heading">Аналитика</h3>
+            <a class="section6_analytics__link" href="#">Интересные судебные решения</a>
+            <a class="section6_analytics__link" href="#">Аналитические статьи</a>
+            <a class="section6_analytics__link" href="#">Тьмы</a>
+            <a class="section6_analytics__link" href="#">Дайджесты</a>
+        </div>
+        </div>
+    </section>
+    <section class="section7">
+        <h2 class="section7_heading">Cтатистика</h2>
+        <div class="section7_counters">
+            <div class="section7_counters__counter">
+                <img src="img/lawyer%201.svg" alt="lawyer">
+                <div class="num">3390</div>
+                Юристов в каталоге
+            </div>
+            <div class="section7_counters__counter">
+                <img src="img/Asset%202%201.svg" alt="clinets">
+                <div class="num">31263</div>
+                Клиентов за всю историю проекта
+            </div>
+
+            <div class="section7_counters__counter">
+                <img src="img/speech-bubble%201.svg" alt="dialogs">
+                <div class="num">105642</div>
+                Консультаций
+            </div>
+
+            <div class="section7_counters__counter">
+                <img src="img/document%201.svg" alt="">
+                <div class="num">1525</div>
+                Протоколов заказа
+            </div>
+        </div>
+        <h2 class="section7_heading">Часто задаваемые вопросы</h2>
+        <div class="section7_linkBlock">
+        <a class="section7_linkBLock__link" href="#"><img src="img/cross.svg" alt="cross">Как юристу зарегистрироваться в разделе "Каталог юристов"?</a>
+        <a class="section7_linkBLock__link" href="#"><img src="img/cross.svg" alt="cross">Как клиенту зарегистрироваться на ресурсе «Протокол»?</a>
+        <a class="section7_linkBLock__link" href="#"><img src="img/cross.svg" alt="cross">Что такое сервис «Бесплатная консультация» на ресурсе «Протокол»?</a>
+        <a class="section7_linkBLock__link" href="#"><img src="img/cross.svg" alt="cross">Как клиенту задать вопрос и получить консультацию без регистрации?</a>
+        <a class="section7_linkBLock__link" href="#"><img src="img/cross.svg" alt="cross">Как клиенту найти юриста в разделе «Каталог юристов» и получить личную консультацию/услугу?</a>
+        </div>
+    </section>
+<div class="end">END</div>
+    <script type="text/javascript">
+        $(".num").counterUp({delay:10,time:1500});
+    </script>
 </body>
 </html>

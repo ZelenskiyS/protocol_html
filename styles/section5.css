@@ -3,6 +3,8 @@
   height: 613px;
   padding: 2.8vw 10.4vw;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 .section5_heading {
   font-weight: bold;
@@ -33,6 +35,9 @@
 }
 .section5_button:hover {
   background: #FFCC60;
+}
+.section5_img {
+  float: right;
 }
 
 /*# sourceMappingURL=section5.css.map */
