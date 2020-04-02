@@ -1,24 +1,124 @@
-.section9{
+.section9 {
+  font-family: "Open Sans", sans-serif;
   background: #F2DAA9;
-  padding:  0 10.4vw 0 10.4vw ;
+  padding: 0 10.4vw 0 10.4vw;
+  max-width: 1440px;
+  moin-height: 325px;
   display: grid;
-  grid-template-areas:  "img . ."
-                        "firstBlock secondBlock .";
-  &_img{
+  grid-template-areas: "img . ." "firstBlock secondBlock thirdBlock";
+
+  &_img {
     grid-area: img;
   }
-  &_firstBlock{
+
+  &_firstBlock {
     grid-area: firstBlock;
     width: 28.1vw;
+
+    &__heading {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      color: #383838;
+
+    }
+
+    &__paragraph {
+      font-size: 10px;
+      line-height: 14px;
+      text-align: justify;
+    }
+
+    &__link {
+      font-size: 12px;
+      line-height: 16px;
+      text-align: justify;
+      text-decoration-line: underline;
+      color: #BD462B;
+    }
+
+    &__copyright {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: #383838;
+    }
+
   }
-  &_secondBlock{
+
+  &_secondBlock {
     grid-area: secondBlock;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &__social{
+
+    &__heading {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      color: #383838;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 19px;
+      text-align: justify;
+      text-decoration-line: underline;
+      color: #BD462B;
+    }
+
+    &__social {
+      width: 15vw;
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
     }
+  }
+
+  &_thirdBlock {
+    grid-area: thirdBlock;
+    display: grid;
+    grid-template-areas: "heading . "
+                         "linkBlock1 linkBlock2";
+
+    &__heading {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      color: #383838;
+    }
+
+    &__linkBlock1 {
+      grid-area: linkBlock1;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      & a {
+        font-size: 10px;
+        line-height: 13px;
+        text-align: justify;
+        text-decoration-line: underline;
+        color: #BD462B;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    &__linkBlock2 {
+      grid-area: linkBlock2;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      & a {
+        font-size: 10px;
+        line-height: 13px;
+        text-align: justify;
+        text-decoration-line: underline;
+        color: #BD462B;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
   }
 }
