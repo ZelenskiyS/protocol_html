@@ -1,8 +1,8 @@
 .section9 {
   background: #F2DAA9;
-  padding: 3.5vw 10.4vw 0 10.4vw;
+  padding: 0 10.4vw 0 10.4vw;
   display: grid;
-  grid-template-areas: "img . ." "firstBlock secondBlock ." "firstBlock secondBlock .";
+  grid-template-areas: "img . ." "firstBlock secondBlock .";
 }
 .section9_img {
   grid-area: img;
@@ -12,7 +12,14 @@
   width: 28.1vw;
 }
 .section9_secondBlock {
-  grid-area: seconBlock;
+  grid-area: secondBlock;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section9_secondBlock__social {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=section9.css.map */
