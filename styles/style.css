@@ -36,6 +36,8 @@ body {
   background: #F7F7F7 url("../img/search (2) 1.svg") no-repeat center;
 }
 .header_search__searchTerm {
+  font-size: 16px;
+  line-height: 19px;
   width: 100%;
   border: 1px solid #D8D8D8;
   background: #F7F7F7;
