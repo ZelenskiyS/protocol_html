@@ -1,6 +1,6 @@
 .nav {
   max-width: 1440px;
-  height: 48px;
+  min-height: 48px;
   background: #BD462B;
   box-sizing: border-box;
   padding: 0 12vw;
@@ -20,6 +20,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
   transition: 0.4s;
 }
 .nav_list__item a:hover {
