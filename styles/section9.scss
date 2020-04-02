@@ -1,0 +1,18 @@
+.section9{
+  background: #F2DAA9;
+  padding:  3.5vw 10.4vw 0 10.4vw ;
+  display: grid;
+  grid-template-areas: "img . ."
+                        "firstBlock secondBlock ."
+                        "firstBlock secondBlock .";
+  &_img{
+    grid-area: img;
+  }
+  &_firstBlock{
+    grid-area: firstBlock;
+    width: 28.1vw;
+  }
+  &_secondBlock{
+    grid-area: seconBlock;
+  }
+}

@@ -33,11 +33,7 @@
   flex-direction: column;
 }
 .section7_linkBlock__link {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
-  color: #383838;
-  text-decoration: none;
+  margin-bottom: 18px;
 }
 
 .num {
@@ -45,6 +41,16 @@
   font-size: 64px;
   line-height: 87px;
   color: #BD462B;
+}
+
+a {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #383838;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
 }
 
 /*# sourceMappingURL=section7.css.map */
