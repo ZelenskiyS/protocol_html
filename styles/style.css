@@ -220,8 +220,8 @@ select {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10.4vw;
+  margin-right: 10.4vw;
 }
 .section3_flexbox1__block1 {
   box-sizing: border-box;
@@ -276,14 +276,13 @@ select {
   font-size: 24px;
   line-height: 33px;
   color: #383838;
-  padding: 20.5px 35px 16px 24px;
+  padding: 20.5px 35px 0 24px;
 }
 .section3_flexbox1__block2 p {
   font-size: 14px;
   line-height: 19px;
   color: #383838;
-  margin-left: 24px;
-  margin-right: 17px;
+  margin: 0 17px 0 24px;
 }
 .section3_flexbox1__block2 div {
   font-family: "Roboto", sans-serif;
@@ -342,7 +341,7 @@ select {
   background: #FFCC60;
 }
 .section3_flexbox2 {
-  margin: 24px 150px 42px 150px;
+  margin: 24px 10.4vw 42px 10.4vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
