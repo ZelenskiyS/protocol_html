@@ -134,5 +134,126 @@
 
     }
   }
+  &_flexbox2{
+    margin: 24px 150px 42px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__block1{
+      width: 370px;
+      height: 382px;
+      background: #F4F0EB;
+      & img{
+        margin: 16px 36px 16px 24px;
+      }
+      & h2{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        color: #383838;
+        margin-left: 24px;
+      }
+      & p{
+        font-size: 14px;
+        line-height: 19px;
+        color: #383838;
+        margin: auto 24px;
+      }
+      & div{
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        display: flex;
+        margin-left: 1.7vw;
+        background: #F2C25B;
+        border-radius: 4px;
+        width: 15vw;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        &:hover {
+          background: #FFCC60;
+        }
+      }
+    }
+    &__block2{
+      box-sizing: border-box;
+      width: 370px;
+      height: 382px;
+      background: #F4F0EB;
+      float: left;
+      padding-left: 24px;
+      & img{
+        margin: 27.5px 22.21px 28.75px 6px;
+      }
+      & h2{
+        font-size: 20px;
+        line-height: 27px;
+        color: #383838;
+      }
+      & p{
+        font-size: 14px;
+        line-height: 19px;
+        color: #383838;
+      }
+      & div{
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        display: flex;
+        background: #F2C25B;
+        border-radius: 4px;
+        width: 15vw;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        &:hover {
+          background: #FFCC60;
+        }
+      }
+    }
+    &__block3{
+      box-sizing: border-box;
+      width: 370px;
+      height: 382px;
+      background: #F4F0EB;
+      float: left;
+      padding-left: 24px;
+      & img{
+        margin: 27.5px 22.21px 28.75px 6px;
+      }
+      & h2{
+        font-size: 20px;
+        line-height: 27px;
+        color: #383838;
+      }
+      & p{
+        font-size: 14px;
+        line-height: 19px;
+        color: #383838;
+      }
+      & div{
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        display: flex;
+        background: #F2C25B;
+        border-radius: 4px;
+        width: 15vw;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        &:hover {
+          background: #FFCC60;
+        }
+      }
+    }
+  }
 
 }

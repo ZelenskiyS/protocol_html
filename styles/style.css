@@ -341,6 +341,127 @@ select {
 .section3_flexbox1__block3 div:hover {
   background: #FFCC60;
 }
+.section3_flexbox2 {
+  margin: 24px 150px 42px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section3_flexbox2__block1 {
+  width: 370px;
+  height: 382px;
+  background: #F4F0EB;
+}
+.section3_flexbox2__block1 img {
+  margin: 16px 36px 16px 24px;
+}
+.section3_flexbox2__block1 h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #383838;
+  margin-left: 24px;
+}
+.section3_flexbox2__block1 p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #383838;
+  margin: auto 24px;
+}
+.section3_flexbox2__block1 div {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1.7vw;
+  background: #F2C25B;
+  border-radius: 4px;
+  width: 15vw;
+  height: 48px;
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.section3_flexbox2__block1 div:hover {
+  background: #FFCC60;
+}
+.section3_flexbox2__block2 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 382px;
+  background: #F4F0EB;
+  float: left;
+  padding-left: 24px;
+}
+.section3_flexbox2__block2 img {
+  margin: 27.5px 22.21px 28.75px 6px;
+}
+.section3_flexbox2__block2 h2 {
+  font-size: 20px;
+  line-height: 27px;
+  color: #383838;
+}
+.section3_flexbox2__block2 p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #383838;
+}
+.section3_flexbox2__block2 div {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  display: flex;
+  background: #F2C25B;
+  border-radius: 4px;
+  width: 15vw;
+  height: 48px;
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.section3_flexbox2__block2 div:hover {
+  background: #FFCC60;
+}
+.section3_flexbox2__block3 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 382px;
+  background: #F4F0EB;
+  float: left;
+  padding-left: 24px;
+}
+.section3_flexbox2__block3 img {
+  margin: 27.5px 22.21px 28.75px 6px;
+}
+.section3_flexbox2__block3 h2 {
+  font-size: 20px;
+  line-height: 27px;
+  color: #383838;
+}
+.section3_flexbox2__block3 p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #383838;
+}
+.section3_flexbox2__block3 div {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  display: flex;
+  background: #F2C25B;
+  border-radius: 4px;
+  width: 15vw;
+  height: 48px;
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.section3_flexbox2__block3 div:hover {
+  background: #FFCC60;
+}
 
 .section4 {
   max-width: 1440px;
