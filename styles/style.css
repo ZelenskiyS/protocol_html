@@ -226,10 +226,14 @@ select {
 .section3_flexbox1__block1 {
   box-sizing: border-box;
   background: #F4F4F4;
-  width: 370px;
-  height: 608px;
+  width: 25.7vw;
+  height: 100%;
   padding-top: 81.1px;
   float: left;
+  margin-right: 15px;
+}
+.section3_flexbox1__block1 img {
+  width: inherit;
 }
 .section3_flexbox1__block1 h2 {
   margin: 74px 17px 16px 24px;
@@ -264,12 +268,14 @@ select {
 }
 .section3_flexbox1__block2 {
   background: #F4F4F4;
-  width: 370px;
-  height: 608px;
+  width: 25.7vw;
+  height: 67.5vh;
   float: left;
+  margin-right: 15px;
 }
 .section3_flexbox1__block2 img {
   margin-top: 66.9px;
+  width: inherit;
 }
 .section3_flexbox1__block2 h2 {
   font-weight: bold;
@@ -304,8 +310,8 @@ select {
 }
 .section3_flexbox1__block3 {
   background: #F4F4F4;
-  width: 370px;
-  height: 608px;
+  width: 25.7vw;
+  height: 100%;
   float: left;
 }
 .section3_flexbox1__block3 h2 {
@@ -314,6 +320,9 @@ select {
   line-height: 33px;
   color: #383838;
   padding: 20.5px 35px 16px 24px;
+}
+.section3_flexbox1__block3 img {
+  width: inherit;
 }
 .section3_flexbox1__block3 p {
   font-size: 14px;
@@ -327,6 +336,7 @@ select {
   cursor: pointer;
   display: flex;
   margin-left: 1.7vw;
+  margin-bottom: 27px;
   background: #F2C25B;
   border-radius: 4px;
   width: 15vw;
@@ -341,15 +351,15 @@ select {
   background: #FFCC60;
 }
 .section3_flexbox2 {
-  margin: 24px 10.4vw 42px 10.4vw;
+  margin: 24px 10vw 42px 10vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .section3_flexbox2__block1 {
   width: 370px;
   height: 382px;
   background: #F4F0EB;
+  margin-right: 15px;
 }
 .section3_flexbox2__block1 img {
   margin: 16px 36px 16px 24px;
@@ -392,6 +402,7 @@ select {
   background: #F4F0EB;
   float: left;
   padding-left: 24px;
+  margin-right: 15px;
 }
 .section3_flexbox2__block2 img {
   margin: 27.5px 22.21px 28.75px 6px;

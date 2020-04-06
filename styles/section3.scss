@@ -17,10 +17,14 @@
     &__block1{
       box-sizing: border-box;
       background: #F4F4F4;
-      width: 370px;
-      height: 608px;
+      width: 25.7vw;
+      height:  100%;
       padding-top:81.1px ;
       float: left;
+      margin-right: 15px;
+      & img{
+        width: inherit;
+      }
       & h2{
         margin: 74px 17px 16px 24px;
         font-size: 24px;
@@ -55,11 +59,13 @@
     }
     &__block2{
       background: #F4F4F4;
-      width: 370px;
-      height: 608px;
+      width: 25.7vw;
+      height:  67.5vh;
       float: left;
+      margin-right: 15px;
       & img{
         margin-top:66.9px ;
+        width: inherit;
       }
       & h2{
         font-weight: bold;
@@ -95,8 +101,8 @@
     }
     &__block3{
       background: #F4F4F4;
-      width: 370px;
-      height: 608px;
+      width: 25.7vw;
+      height: 100%;
       float: left;
       & h2{
         font-weight: bold;
@@ -104,6 +110,9 @@
         line-height: 33px;
         color: #383838;
         padding: 20.5px 35px 16px 24px;
+      }
+      & img{
+        width: inherit;
       }
       & p{
         font-size: 14px;
@@ -117,6 +126,7 @@
         cursor: pointer;
         display: flex;
         margin-left: 1.7vw;
+        margin-bottom: 27px;
         background: #F2C25B;
         border-radius: 4px;
         width: 15vw;
@@ -134,14 +144,14 @@
     }
   }
   &_flexbox2{
-    margin: 24px 10.4vw 42px 10.4vw;
+    margin: 24px 10vw 42px 10vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     &__block1{
       width: 370px;
       height: 382px;
       background: #F4F0EB;
+      margin-right: 15px;
       & img{
         margin: 16px 36px 16px 24px;
       }
@@ -184,6 +194,7 @@
       background: #F4F0EB;
       float: left;
       padding-left: 24px;
+      margin-right: 15px;
       & img{
         margin: 27.5px 22.21px 28.75px 6px;
       }
