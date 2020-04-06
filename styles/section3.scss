@@ -24,9 +24,10 @@
       margin-right: 15px;
       & img{
         width: inherit;
+        margin-bottom: 50px;
       }
       & h2{
-        margin: 74px 17px 16px 24px;
+        margin: 74px 17px 33px 24px;
         font-size: 24px;
         line-height: 33px;
         color: #383838;
@@ -43,6 +44,7 @@
         cursor: pointer;
         display: flex;
         margin-left: 1.7vw;
+        margin-bottom: 27px;
         background: #F2C25B;
         border-radius: 4px;
         width: 15vw;
@@ -60,11 +62,12 @@
     &__block2{
       background: #F4F4F4;
       width: 25.7vw;
-      height:  67.5vh;
+      height:  100%;
       float: left;
       margin-right: 15px;
       & img{
         margin-top:66.9px ;
+        margin-bottom: 50px;
         width: inherit;
       }
       & h2{
@@ -73,18 +76,20 @@
         line-height: 33px;
         color: #383838;
         padding: 20.5px 35px 0 24px;
+        margin-bottom: 40px;
       }
       & p{
         font-size: 14px;
         line-height: 19px;
         color: #383838;
-        margin: 0 17px 0 24px;
+        margin: 0 17px 30px 24px;
       }
       & div {
         font-family: "Roboto", sans-serif;
         cursor: pointer;
         display: flex;
         margin-left: 1.7vw;
+        margin-bottom: 27px;
         background: #F2C25B;
         border-radius: 4px;
         width: 15vw;
@@ -144,9 +149,10 @@
     }
   }
   &_flexbox2{
-    margin: 24px 10vw 42px 10vw;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 24px 10.4vw 42px 10.4vw;
     &__block1{
       width: 370px;
       height: 382px;
