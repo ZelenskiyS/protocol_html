@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -130,10 +131,14 @@ select {
     grid-area: registration;
   }
   .header_enter {
-    float: right;
+    margin-left: 120px;
     grid-area: enter;
   }
 }
+.navMobile {
+  display: none;
+}
+
 .nav {
   max-width: 1440px;
   min-height: 48px;
@@ -162,6 +167,115 @@ select {
 }
 .nav_list__item a:hover {
   background: #E45332;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .navMobile {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background: #BD462B;
+  }
+}
+#menu__toggle {
+  opacity: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  float: right;
+  top: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #BD462B;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu__item:hover {
+  background-color: #E45332;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 
 .section1 {
