@@ -125,14 +125,14 @@ select{
     &_search{
       grid-area: search;
       margin-bottom: 16px;
-      margin-right: 0px;
+      margin-right: 0;
       width: 100%;
     }
     &_registration{
       grid-area:registration;
     }
     &_enter{
-      margin-left: 120px;
+      margin-left: 60px;
       grid-area: enter;
     }
   }

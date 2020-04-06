@@ -123,14 +123,14 @@ select {
   .header_search {
     grid-area: search;
     margin-bottom: 16px;
-    margin-right: 0px;
+    margin-right: 0;
     width: 100%;
   }
   .header_registration {
     grid-area: registration;
   }
   .header_enter {
-    margin-left: 120px;
+    margin-left: 60px;
     grid-area: enter;
   }
 }
@@ -674,6 +674,24 @@ select {
   }
   .section3_flexbox1 {
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .section3_flexbox1__block1 {
+    width: 100%;
+  }
+  .section3_flexbox1__block1 img {
+    margin-bottom: 18px;
+  }
+  .section3_flexbox1__block1 h2 {
+    margin: 0 30px 16px 18px;
+  }
+  .section3_flexbox1__block1 p {
+    margin: 16px 21px 10px 18px;
+  }
+  .section3_flexbox1__block1 div {
+    width: 90.2vw;
+    margin: 0 19px 20px 18px;
   }
   .section3_flexbox2 {
     flex-direction: column;
