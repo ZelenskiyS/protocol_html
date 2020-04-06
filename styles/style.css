@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  max-width: 1440px;
+  width: 100vw;
   height: 112px;
   padding: 0 10.5vw;
   box-sizing: border-box;
@@ -104,24 +104,33 @@ select {
   font-size: 16px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .header {
+    padding: 11px 15px 18px 15px;
+    height: 100%;
     display: grid;
     grid-template-areas: "logo langChose" "search search" "registration enter";
   }
   .header_logo {
     grid-area: logo;
+    background-repeat: no-repeat;
+    margin-bottom: 16.2px;
   }
   .header select {
     grid-area: langChose;
+    float: right;
   }
   .header_search {
     grid-area: search;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    width: 100%;
   }
   .header_registration {
     grid-area: registration;
   }
   .header_enter {
+    float: right;
     grid-area: enter;
   }
 }
