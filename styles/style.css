@@ -104,6 +104,27 @@ select {
   font-size: 16px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 800px) {
+  .header {
+    display: grid;
+    grid-template-areas: "logo langChose" "search search" "registration enter";
+  }
+  .header_logo {
+    grid-area: logo;
+  }
+  .header select {
+    grid-area: langChose;
+  }
+  .header_search {
+    grid-area: search;
+  }
+  .header_registration {
+    grid-area: registration;
+  }
+  .header_enter {
+    grid-area: enter;
+  }
+}
 .nav {
   max-width: 1440px;
   min-height: 48px;
@@ -571,7 +592,7 @@ select {
   background: #F4F0EB;
   max-width: 1440px;
   height: 556px;
-  padding: 10.4vw 2.6vw 14.6vw 3.7vw;
+  padding: 2.6vw 10.4vw 3.7vw 14.6vw;
   font-family: "Open Sans", sans-serif;
 }
 .section6_heading {
@@ -602,7 +623,7 @@ select {
   color: #1D1D1D;
 }
 .section6_newsBlock__link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #BD462B;
@@ -612,6 +633,7 @@ select {
   float: left;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .section6_dataBlock__img {
   float: left;
@@ -623,7 +645,7 @@ select {
   color: #1D1D1D;
 }
 .section6_dataBlock__link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #BD462B;
@@ -633,9 +655,7 @@ select {
   float: left;
   display: flex;
   flex-direction: column;
-}
-.section6_analytics__img {
-  float: left;
+  justify-content: space-between;
 }
 .section6_analytics__heading {
   font-weight: 600;
@@ -644,7 +664,7 @@ select {
   color: #1D1D1D;
 }
 .section6_analytics__link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #BD462B;

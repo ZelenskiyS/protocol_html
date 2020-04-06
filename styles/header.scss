@@ -105,4 +105,28 @@ select{
   font-size: 16px;
 }
 
+@media screen and (min-width:480px) and (max-width:800px) {
+  .header{
+    display: grid;
+    grid-template-areas: "logo langChose"
+                          "search search"
+                          "registration enter";
+    &_logo{
+      grid-area: logo;
+    }
+    & select{
+      grid-area: langChose;
+    }
+    &_search{
+      grid-area: search;
+    }
+    &_registration{
+      grid-area:registration;
+    }
+    &_enter{
+      grid-area: enter;
+    }
+  }
+}
+
 

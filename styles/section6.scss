@@ -2,7 +2,7 @@
   background: #F4F0EB;
   max-width: 1440px;
   height: 556px;
-  padding: 10.4vw 2.6vw 14.6vw 3.7vw;
+  padding:  2.6vw 10.4vw 3.7vw 14.6vw ;
   font-family: "Open Sans", sans-serif;
   &_heading{
     font-weight: bold;
@@ -31,7 +31,7 @@
       color: #1D1D1D;
     }
     &__link{
-      font-weight: 600;
+      font-weight: 500;
       font-size: 16px;
       line-height: 22px;
       color: #BD462B;
@@ -42,6 +42,7 @@
     float: left;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     &__img{
       float: left;
     }
@@ -52,7 +53,7 @@
       color: #1D1D1D;
     }
     &__link{
-      font-weight: 600;
+      font-weight: 500;
       font-size: 16px;
       line-height: 22px;
       color: #BD462B;
@@ -63,9 +64,7 @@
     float: left;
     display: flex;
     flex-direction: column;
-    &__img{
-      float: left;
-    }
+    justify-content: space-between;
     &__heading{
       font-weight: 600;
       font-size: 24px;
@@ -73,7 +72,7 @@
       color: #1D1D1D;
     }
     &__link{
-      font-weight: 600;
+      font-weight: 500;
       font-size: 16px;
       line-height: 22px;
       color: #BD462B;
