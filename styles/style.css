@@ -371,7 +371,7 @@ select {
   font-size: 36px;
   line-height: 49px;
 }
-.section2_video__modile {
+.section2_video__mobile {
   display: none;
 }
 
@@ -386,7 +386,7 @@ select {
   .section2_video {
     display: none;
   }
-  .section2_video_mobile {
+  .section2_video__mobile {
     margin: 22px 23px 30px 21px;
     display: flex;
   }
@@ -665,6 +665,20 @@ select {
   background: #FFCC60;
 }
 
+@media screen and (max-width: 768px) {
+  .section3_heading {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 18px 19px 31px 21px;
+  }
+  .section3_flexbox1 {
+    flex-direction: column;
+  }
+  .section3_flexbox2 {
+    flex-direction: column;
+  }
+}
 .section4 {
   max-width: 1440px;
   height: 613px;

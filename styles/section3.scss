@@ -271,5 +271,20 @@
       }
     }
   }
-
+}
+@media screen and (max-width: 768px){
+  .section3{
+    &_heading{
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      margin: 18px 19px 31px 21px;
+    }
+    &_flexbox1{
+      flex-direction: column;
+    }
+    &_flexbox2{
+      flex-direction: column;
+    }
+  }
 }
