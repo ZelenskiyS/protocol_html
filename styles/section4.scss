@@ -1,11 +1,14 @@
 .section4{
   max-width: 1440px;
-  height: 613px;
+  height: 100%;
   padding: 2.8vw 10.4vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   font-family: "Open Sans", sans-serif;
   background: #F4F0EB;
+  & img{
+    width: inherit;
+  }
   &_textblock{
     display: flex;
     flex-direction: column;
@@ -39,6 +42,36 @@
       transition: 0.4s;
       &:hover{
         background: #FFCC60;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .section4{
+    background: #FFFFFF;
+    width: 100%;
+    display: grid;
+    grid-template-areas: ". heading ."
+                          ". img ."
+                          ". paragraph ."
+                          ". video ."
+                          ". button .";
+    & img{
+      grid-area: img;
+      width: inherit;
+    }
+    &_textblock{
+      &__heading{
+        grid-area: heading;
+      }
+      &__paragraph{
+        grid-area: paragraph;
+      }
+      &__video{
+        grid-area: video;
+      }
+      &__button{
+        grid-area: button;
       }
     }
   }
