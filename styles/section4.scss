@@ -1,3 +1,6 @@
+.section4Mob{
+  display: none;
+}
 .section4{
   max-width: 1440px;
   height: 100%;
@@ -47,32 +50,49 @@
   }
 }
 @media screen and (max-width: 900px){
-  .section4{
-    background: #FFFFFF;
-    width: 100%;
-    display: grid;
-    grid-template-areas: ". heading ."
-                          ". img ."
-                          ". paragraph ."
-                          ". video ."
-                          ". button .";
-    & img{
-      grid-area: img;
-      width: inherit;
+  .section4 {
+    display: none;
+  }
+  .section4Mob{
+    display: flex;
+    flex-direction: column;
+    padding: 21px 17px 21px 18px ;
+    &_heading{
+      float: left;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      color: #383838;
     }
-    &_textblock{
-      &__heading{
-        grid-area: heading;
-      }
-      &__paragraph{
-        grid-area: paragraph;
-      }
-      &__video{
-        grid-area: video;
-      }
-      &__button{
-        grid-area: button;
+    &_img{
+      width: 63vw;
+    }
+    &_paragraph{
+      float: left;
+      font-size: 14px;
+      line-height: 19px;
+      color: #383838;
+    }
+    &_button{
+      margin-top:21px ;
+      cursor: pointer;
+      background: #F2C25B;
+      border-radius: 4px;
+      width: 152px;
+      height: 48px;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.4s;
+      &:hover{
+        background: #FFCC60;
       }
     }
+
   }
 }
