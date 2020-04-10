@@ -1056,7 +1056,14 @@ select {
   flex-direction: column;
   justify-content: space-between;
 }
-.section7_linkBlock__link {
+.section7_linkBlock a {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #383838;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
   margin-bottom: 18px;
 }
 
@@ -1065,16 +1072,6 @@ select {
   font-size: 64px;
   line-height: 87px;
   color: #BD462B;
-}
-
-a {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
-  color: #383838;
-  text-decoration: none;
-  display: flex;
-  text-align: center;
 }
 
 .section8_waves {
