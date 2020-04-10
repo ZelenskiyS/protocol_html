@@ -2,6 +2,7 @@
   display: none;
 }
 .nav{
+  width: 100%;
   max-width: 1440px;
   min-height: 48px;
   background:  #BD462B;
@@ -92,7 +93,7 @@
   list-style: none;
   text-align: center;
   background-color: #BD462B;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
 }
 .menu__item {
   display: block;
