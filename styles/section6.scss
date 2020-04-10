@@ -1,36 +1,73 @@
-.section6{
+.section6 {
   background: #F4F0EB;
   max-width: 1440px;
   height: 556px;
-  padding:  2.6vw 10.4vw 3.7vw 14.6vw ;
+  padding: 2.6vw 10.4vw 3.7vw 14.6vw;
   font-family: "Open Sans", sans-serif;
-  &_heading{
+
+  &_heading {
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
     color: #383838;
   }
-  &_flexbox{
+
+  &_flexbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  &_newsBlock{
+
+  &_newsBlock {
     float: left;
     display: flex;
     flex-direction: column;
     height: 285px;
     justify-content: space-between;
-    &__img{
-      float: left;
+
+    &__img {
+      box-sizing: border-box;
+      padding-right: 220px;
+      margin-bottom: 10px;
     }
-    &__heading{
+
+    &__heading {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+      color: #1D1D1D;
+      margin-bottom: 40px;
+    }
+
+    &__link {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: #BD462B;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+
+  &_dataBlock {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__img {
+      box-sizing: border-box;
+      padding-right: 220px;
+    }
+
+    &__heading {
       font-weight: 600;
       font-size: 24px;
       line-height: 33px;
       color: #1D1D1D;
     }
-    &__link{
+
+    &__link {
       font-weight: 500;
       font-size: 16px;
       line-height: 22px;
@@ -38,40 +75,26 @@
       text-decoration: none;
     }
   }
-  &_dataBlock{
+
+  &_analytics {
     float: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &__img{
-      float: left;
+
+    &__img {
+      box-sizing: border-box;
+      padding-right: 220px;
     }
-    &__heading{
+
+    &__heading {
       font-weight: 600;
       font-size: 24px;
       line-height: 33px;
       color: #1D1D1D;
     }
-    &__link{
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 22px;
-      color: #BD462B;
-      text-decoration: none;
-    }
-  }
-  &_analytics{
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    &__heading{
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 33px;
-      color: #1D1D1D;
-    }
-    &__link{
+
+    &__link {
       font-weight: 500;
       font-size: 16px;
       line-height: 22px;

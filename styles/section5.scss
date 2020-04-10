@@ -1,12 +1,10 @@
 .section5{
   max-width: 1440px;
-  height: 613px;
-  padding: 2.8vw 10.4vw;
+  padding: 2.8vw 10.4vw 0 10.4vw;
   font-family: "Open Sans", sans-serif;
-  display: grid;
-  grid-template-areas: "heading empty"
-                        "paragraph img"
-                        "button img";
+  display: flex;
+  flex-direction: column;
+
     &_heading{
       grid-area: heading;
       font-weight: bold;
@@ -15,12 +13,14 @@
       color: #383838;
     }
     &_paragraph{
+      z-index: 1;
       grid-area: paragraph;
       font-size: 18px;
       line-height: 25px;
       color: #383838;
     }
     &_button {
+      margin-top: 20px;
       grid-area: button;
       cursor: pointer;
       background: #F2C25B;
@@ -41,7 +41,8 @@
       }
     }
     &_img{
-      grid-area: img;
-      float: right;
+      position: relative;
+      left: 250px;
+      z-index: -1;
     }
   }
