@@ -819,6 +819,7 @@ select {
   color: #383838;
 }
 .section4_textblock__button {
+  margin-top: 31px;
   cursor: pointer;
   background: #F2C25B;
   border-radius: 4px;
@@ -890,21 +891,24 @@ select {
   height: 613px;
   padding: 2.8vw 10.4vw;
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-areas: "heading empty" "paragraph img" "button img";
 }
 .section5_heading {
+  grid-area: heading;
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
   color: #383838;
 }
 .section5_paragraph {
+  grid-area: paragraph;
   font-size: 18px;
   line-height: 25px;
   color: #383838;
 }
 .section5_button {
+  grid-area: button;
   cursor: pointer;
   background: #F2C25B;
   border-radius: 4px;
@@ -924,6 +928,7 @@ select {
   background: #FFCC60;
 }
 .section5_img {
+  grid-area: img;
   float: right;
 }
 
