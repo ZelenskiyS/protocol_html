@@ -30,6 +30,7 @@
   &_linkBlock{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     &__link{
       margin-bottom: 18px;
     }
@@ -50,5 +51,6 @@ a{
   text-decoration: none;
   display: flex;
   text-align: center;
+  margin-bottom: 18px;
 
 }
