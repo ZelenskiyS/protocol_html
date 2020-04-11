@@ -7,8 +7,11 @@
   min-height: 48px;
   background:  #BD462B;
   box-sizing: border-box;
-  padding: 0 12vw;
+  display: flex;
+  justify-content: center;
   &_list{
+    min-width: 1024px;
+    max-width: 1040px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

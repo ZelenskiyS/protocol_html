@@ -141,9 +141,12 @@ select {
   min-height: 48px;
   background: #BD462B;
   box-sizing: border-box;
-  padding: 0 12vw;
+  display: flex;
+  justify-content: center;
 }
 .nav_list {
+  min-width: 1024px;
+  max-width: 1040px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -887,8 +890,9 @@ select {
 .section9_thirdBlock__linkBlock1 {
   grid-area: linkBlock1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
+  margin-top: -95px;
 }
 .section9_thirdBlock__linkBlock1 a {
   font-size: 10px;
@@ -902,8 +906,9 @@ select {
 .section9_thirdBlock__linkBlock2 {
   grid-area: linkBlock2;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
+  margin-top: -95px;
 }
 .section9_thirdBlock__linkBlock2 a {
   font-size: 10px;
