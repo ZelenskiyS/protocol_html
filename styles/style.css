@@ -317,11 +317,10 @@ select {
   text-decoration: none;
   color: black;
   font-family: Roboto, serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  font-weight: 600;
 }
 .section1_img {
   grid-area: img;
@@ -426,14 +425,18 @@ select {
   background: #F2C25B;
   border-radius: 4px;
   padding: 16px 24px;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
   line-height: 16px;
   text-align: center;
   color: #000000;
   transition: 0.4s;
+}
+.b_button a {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
 }
 .b_button:hover {
   background: #FFCC60;
