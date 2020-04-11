@@ -480,6 +480,7 @@ select {
   margin-right: 15px;
 }
 .section3_flexbox2__block1, .section3_flexbox2__block2, .section3_flexbox2__block3 {
+  padding-top: 20px;
   background: #F4F0EB;
   max-width: 370px;
   width: 100%;
