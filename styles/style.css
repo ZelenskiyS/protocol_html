@@ -61,6 +61,7 @@
   color: black;
   font-size: 14px;
   line-height: 16px;
+  font-weight: 600;
 }
 .header_enter {
   margin-left: 1.2vw;
@@ -85,6 +86,7 @@
   color: white;
   font-size: 14px;
   line-height: 16px;
+  font-width: 600;
 }
 
 select {
@@ -531,22 +533,26 @@ select {
   line-height: 25px;
   color: #383838;
 }
+.section4_textblock__video {
+  margin-bottom: 20px;
+}
 .section4_textblock__button {
-  margin-top: 31px;
-  cursor: pointer;
+  max-width: 230px;
   background: #F2C25B;
   border-radius: 4px;
-  width: 152px;
-  height: 48px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  padding: 16px 24px;
   line-height: 16px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  color: #000000;
   transition: 0.4s;
+}
+.section4_textblock__button a {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
 }
 .section4_textblock__button:hover {
   background: #FFCC60;
@@ -623,22 +629,22 @@ select {
   max-width: 697px;
 }
 .section5_button {
-  margin-top: 20px;
-  grid-area: button;
-  cursor: pointer;
+  max-width: 230px;
   background: #F2C25B;
   border-radius: 4px;
-  width: 152px;
-  height: 48px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+  padding: 16px 24px;
   line-height: 16px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  color: #000000;
   transition: 0.4s;
+}
+.section5_button a {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
 }
 .section5_button:hover {
   background: #FFCC60;

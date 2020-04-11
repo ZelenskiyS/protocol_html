@@ -28,24 +28,28 @@
       line-height: 25px;
       color: #383838;
     }
+    &__video{
+      margin-bottom: 20px;
+    }
     &__button{
-      margin-top:31px;
-      cursor: pointer;
+      max-width: 230px;
       background: #F2C25B;
       border-radius: 4px;
-      width: 152px;
-      height: 48px;
-      font-family: Roboto, sans-serif;
-      font-weight: 500;
-      font-size: 14px;
+      padding: 16px 24px;
       line-height: 16px;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      text-align: center;
+      color: #000000;
       transition: 0.4s;
+      & a {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+      }
       &:hover{
-        background: #FFCC60;
+        background: #FFCC60
       }
     }
   }
