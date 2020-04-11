@@ -1,8 +1,8 @@
 .section7{
-  max-width: 1440px;
+  max-width: 1000px;
   width: 100%;
-  padding:  3.5vw 10.4vw 0 10.4vw ;
   font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
   &_heading{
     font-weight: bold;
     font-size: 36px;
@@ -18,7 +18,7 @@
       line-height: 25px;
       color: #383838;
       &__counter {
-        width: 147px;
+        max-width: 230px;
     }
   }
   &_linkBlock{

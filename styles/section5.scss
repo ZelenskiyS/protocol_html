@@ -5,8 +5,8 @@
   flex-direction: column;
   position: relative;
   margin: 0 auto;
-  height: 318px;
-  padding: 40px 89px 0px 150px;
+  height: 468px;
+  max-width: 1120px;
 
     &_heading{
       grid-area: heading;
@@ -16,11 +16,10 @@
       color: #383838;
     }
     .section5_paragraph {
-      grid-area: paragraph;
       font-size: 18px;
       line-height: 25px;
       color: #383838;
-      max-width: 770px;
+      max-width: 697px;
     }
     &_button {
       margin-top: 20px;
