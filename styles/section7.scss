@@ -9,24 +9,16 @@
     line-height: 49px;
     color: #383838;
   }
-  &_counters{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    color: #383838;
-    &_counter{
-      flex: 1;
-      text-align: center;
-      padding: 20px;
-      color: #fff;
-      text-transform: uppercase;
-      & i{
-        font-size: 40px;
-        color: #333;
-      }
+    &_counters{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      color: #383838;
+      &__counter {
+        width: 147px;
     }
   }
   &_linkBlock{
