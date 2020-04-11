@@ -410,8 +410,17 @@ select {
   max-width: 370px;
   height: 608px;
   background: #F4F4F4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.section3_flexbox__block1 div, .section3_flexbox__block2 div, .section3_flexbox__block3 div {
+.section3_flexbox__block1 p, .section3_flexbox__block2 p, .section3_flexbox__block3 p {
+  max-width: 311px;
+  width: 100%;
+  height: 79px;
+}
+
+.b_button {
   max-width: 230px;
   background: #F2C25B;
   border-radius: 4px;
@@ -424,10 +433,29 @@ select {
   text-align: center;
   color: #000000;
 }
-.section3_flexbox__block1 p, .section3_flexbox__block2 p, .section3_flexbox__block3 p {
-  max-width: 311px;
-  width: 100%;
-  height: 79px;
+
+.b_img {
+  height: 100%;
+  display: flex;
+}
+
+.b_text {
+  padding: 0px 24px 24px 24px;
+}
+.b_text h2 {
+  margin: 0px 0px 20px 0px;
+}
+
+.section3_heading {
+  width: 670px;
+  height: 98px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #383838;
 }
 
 .section4Mob {

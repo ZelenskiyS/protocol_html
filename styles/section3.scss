@@ -20,20 +20,9 @@
       max-width: 370px;
       height: 608px;
       background: #F4F4F4;
-
-      & div {
-        max-width: 230px;
-        background: #F2C25B;
-        border-radius: 4px;
-        padding: 16px 24px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        color: #000000;
-      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
       & p {
         max-width: 311px;
@@ -42,4 +31,43 @@
       }
     }
   }
+}
+
+.b_button {
+  max-width: 230px;
+  background: #F2C25B;
+  border-radius: 4px;
+  padding: 16px 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.b_img {
+  height: 100%;
+  display: flex;
+}
+
+.b_text {
+  padding: 0px 24px 24px 24px;
+
+  & h2 {
+      margin: 0px 0px 20px 0px;
+  }
+}
+
+.section3_heading {
+  width: 670px;
+  height: 98px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #383838;
 }
