@@ -635,16 +635,20 @@ select {
   border-radius: 4px;
   padding: 16px 24px;
   text-align: center;
+  transition: 0.4s;
 }
 .b_button a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
   color: #000000;
   text-decoration: none;
+}
+.b_button:hover {
+  background: #FFCC60;
 }
 
 .b_img {
@@ -776,9 +780,9 @@ select {
   background: #FFCC60;
 }
 .section4_textblock__button a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -875,9 +879,9 @@ select {
   background: #FFCC60;
 }
 .section5_button a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
