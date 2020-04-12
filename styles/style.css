@@ -61,6 +61,7 @@
   color: black;
   font-size: 14px;
   line-height: 16px;
+  font-weight: 600;
 }
 .header_enter {
   margin-left: 1.2vw;
@@ -85,6 +86,7 @@
   color: white;
   font-size: 14px;
   line-height: 16px;
+  font-width: 600;
 }
 
 select {
@@ -139,9 +141,12 @@ select {
   min-height: 48px;
   background: #BD462B;
   box-sizing: border-box;
-  padding: 0 12vw;
+  display: flex;
+  justify-content: center;
 }
 .nav_list {
+  min-width: 1024px;
+  max-width: 1040px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -317,11 +322,10 @@ select {
   text-decoration: none;
   color: black;
   font-family: Roboto, serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  font-weight: 600;
 }
 .section1_img {
   grid-area: img;
@@ -426,13 +430,17 @@ select {
   background: #F2C25B;
   border-radius: 4px;
   padding: 16px 24px;
+  text-align: center;
+}
+.b_button a {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
   color: #000000;
+  text-decoration: none;
 }
 
 .b_img {
@@ -544,6 +552,16 @@ select {
 .section4_textblock__button:hover {
   background: #FFCC60;
 }
+.section4_textblock__button a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 900px) {
   .section4 {
@@ -635,6 +653,16 @@ select {
 }
 .section5_button:hover {
   background: #FFCC60;
+}
+.section5_button a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
 }
 .section5_img {
   position: absolute;
@@ -770,6 +798,9 @@ select {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.section7_linkBlock img {
+  margin-right: 15px;
 }
 .section7_linkBlock a {
   font-weight: normal;
