@@ -75,6 +75,7 @@
 
   div.section3_flexbox2__block1, div.section3_flexbox2__block2, div.section3_flexbox2__block3 {
     height: 390px;
+    width: 246px;
   }
 
   .b_text {
@@ -125,6 +126,19 @@
 
   section.section9 {
     padding: 10px;
+  }
+
+  .section3_flexbox2__block1 .b_img2, .section3_flexbox2 img, div.section3_flexbox2 .b_img2 {
+    width: 246px;
+    height: 62px;
+  }
+
+  div.b_button {
+    padding: 0px 24px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
