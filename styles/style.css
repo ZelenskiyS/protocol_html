@@ -441,7 +441,7 @@ select {
 }
 
 .b_text {
-  padding: 0px 22px 22px 22px;
+  padding: 22px 22px 22px 22px;
 }
 .b_text h2 {
   margin: 0px 0px 20px 0px;
@@ -532,7 +532,7 @@ select {
   width: 152px;
   height: 48px;
   font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   text-decoration: none;
@@ -624,7 +624,7 @@ select {
   width: 152px;
   height: 48px;
   font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   text-decoration: none;
@@ -646,7 +646,7 @@ select {
   background: #F4F0EB;
   max-width: 1440px;
   height: 556px;
-  padding: 2.6vw 10.4vw 3.7vw 14.6vw;
+  padding: 0.1vw 10.4vw 3.7vw 14.6vw;
   font-family: "Open Sans", sans-serif;
 }
 .section6_heading {
@@ -680,12 +680,14 @@ select {
   margin-bottom: 40px;
 }
 .section6_newsBlock__link {
-  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: #BD462B;
-  text-decoration: none;
-  margin-bottom: 10px;
 }
 .section6_dataBlock {
   float: left;
@@ -704,11 +706,14 @@ select {
   color: #1D1D1D;
 }
 .section6_dataBlock__link {
-  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: #BD462B;
-  text-decoration: none;
 }
 .section6_analytics {
   float: left;
@@ -727,11 +732,14 @@ select {
   color: #1D1D1D;
 }
 .section6_analytics__link {
-  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: #BD462B;
-  text-decoration: none;
 }
 
 .section7 {
@@ -781,6 +789,10 @@ select {
   color: #BD462B;
 }
 
+.section7_linkBLock__link img {
+  margin-right: 20px;
+}
+
 .section8 {
   max-width: 1440px;
   width: 100%;
@@ -798,15 +810,21 @@ select {
   padding: 0 10.4vw 0 10.4vw;
   max-width: 1440px;
   min-height: 325px;
-  display: grid;
-  grid-template-areas: "img . ." "firstBlock secondBlock thirdBlock";
+  display: flex;
+  justify-content: space-between;
 }
 .section9_img {
   grid-area: img;
 }
 .section9_firstBlock {
-  grid-area: firstBlock;
-  width: 28.1vw;
+  max-width: 404px;
+  width: 100%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: justify;
 }
 .section9_firstBlock__heading {
   font-weight: bold;
@@ -833,10 +851,10 @@ select {
   color: #383838;
 }
 .section9_secondBlock {
-  grid-area: secondBlock;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-bottom: 22px;
 }
 .section9_secondBlock__heading {
   font-weight: bold;
@@ -850,6 +868,7 @@ select {
   text-align: justify;
   text-decoration-line: underline;
   color: #BD462B;
+  margin-bottom: 9px;
 }
 .section9_secondBlock__social {
   width: 15vw;
@@ -858,9 +877,12 @@ select {
   justify-content: space-between;
 }
 .section9_thirdBlock {
-  grid-area: thirdBlock;
-  display: grid;
-  grid-template-areas: "heading . " "linkBlock1 linkBlock2";
+  display: flex;
+  max-width: 247px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 70px;
 }
 .section9_thirdBlock__heading {
   font-weight: bold;
@@ -869,9 +891,7 @@ select {
   color: #383838;
 }
 .section9_thirdBlock__linkBlock1 {
-  grid-area: linkBlock1;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
 }
 .section9_thirdBlock__linkBlock1 a {
@@ -882,11 +902,10 @@ select {
   color: #BD462B;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 9px;
 }
 .section9_thirdBlock__linkBlock2 {
-  grid-area: linkBlock2;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
 }
 .section9_thirdBlock__linkBlock2 a {
@@ -897,6 +916,7 @@ select {
   color: #BD462B;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 9px;
 }
 
 body {

@@ -4,16 +4,22 @@
   padding: 0 10.4vw 0 10.4vw;
   max-width: 1440px;
   min-height: 325px;
-  display: grid;
-  grid-template-areas: "img . ." "firstBlock secondBlock thirdBlock";
+  display: flex;
+  justify-content: space-between;
 
   &_img {
     grid-area: img;
   }
 
   &_firstBlock {
-    grid-area: firstBlock;
-    width: 28.1vw;
+    max-width: 404px;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: justify;
 
     &__heading {
       font-weight: bold;
@@ -47,10 +53,10 @@
   }
 
   &_secondBlock {
-    grid-area: secondBlock;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin-bottom: 22px;
 
     &__heading {
       font-weight: bold;
@@ -65,6 +71,7 @@
       text-align: justify;
       text-decoration-line: underline;
       color: #BD462B;
+      margin-bottom: 9px
     }
 
     &__social {
@@ -76,11 +83,12 @@
   }
 
   &_thirdBlock {
-    grid-area: thirdBlock;
-    display: grid;
-    grid-template-areas: "heading . "
-                         "linkBlock1 linkBlock2";
-
+    display: flex;
+    max-width: 247px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 70px;
     &__heading {
       font-weight: bold;
       font-size: 14px;
@@ -89,9 +97,7 @@
     }
 
     &__linkBlock1 {
-      grid-area: linkBlock1;
       display: flex;
-      justify-content: space-between;
       flex-direction: column;
       & a {
         font-size: 10px;
@@ -101,13 +107,12 @@
         color: #BD462B;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 9px;
       }
     }
 
     &__linkBlock2 {
-      grid-area: linkBlock2;
       display: flex;
-      justify-content: space-between;
       flex-direction: column;
       & a {
         font-size: 10px;
@@ -117,6 +122,7 @@
         color: #BD462B;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 9px;
       }
     }
 
