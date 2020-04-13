@@ -559,6 +559,29 @@ select {
   .header_enter {
     margin-left: 40px;
   }
+
+  section.section6 {
+    height: auto;
+  }
+
+  div.section6_flexbox {
+    flex-direction: column;
+  }
+
+  img.section6_dataBlock__img, img.section6_newsBlock__img, img.section6_analytics__img {
+    width: 56px;
+  }
+
+  div.section6_dataBlock {
+    margin-top: 108px;
+  }
+
+  h2.section6_heading {
+    display: flex;
+    font-size: 24px;
+    line-height: 33px;
+    justify-content: center;
+  }
 }
 .section2 {
   height: 613px;
