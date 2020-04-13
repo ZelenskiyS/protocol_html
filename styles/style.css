@@ -582,6 +582,10 @@ select {
     line-height: 33px;
     justify-content: center;
   }
+
+  div.section7_counters {
+    justify-content: space-around;
+  }
 }
 .section2 {
   height: 613px;
@@ -1031,6 +1035,7 @@ select {
 }
 .section7_counters {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   font-weight: bold;
