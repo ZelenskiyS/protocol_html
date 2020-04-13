@@ -586,6 +586,81 @@ select {
   div.section7_counters {
     justify-content: space-around;
   }
+
+  div.section3_flexbox2__block1, div.section3_flexbox2__block2, div.section3_flexbox2__block3 {
+    max-width: 100%;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+  }
+
+  div.section3_flexbox {
+    margin-bottom: 5px;
+  }
+
+  h2.section4Mob_heading {
+    text-align: center;
+  }
+
+  .section3 {
+    padding: 0px;
+  }
+
+  div.b_button {
+    height: 48px;
+    min-height: 48px;
+  }
+
+  div.section4Mob_button {
+    width: 90%;
+  }
+
+  .section3_flexbox2__block1 .b_img2, .section3_flexbox2 img, div.section3_flexbox2 .b_img2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section4Mob_img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  div.section5_button {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+  }
+
+  img.section5_img {
+    position: relative;
+    width: 100%;
+  }
+
+  section.section5 {
+    height: 100%;
+  }
+
+  section.section5 {
+    height: 600px;
+    padding-bottom: 5px;
+  }
+
+  .section7 {
+    max-width: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+
+  h2.section7_heading, .section7_heading {
+    padding-left: 10px;
+  }
+
+  .section7_linkBlock {
+    padding: 10px;
+  }
 }
 .section2 {
   height: 613px;
