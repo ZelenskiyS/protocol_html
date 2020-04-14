@@ -383,3 +383,50 @@
     padding: 10px;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .header {
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  .section1_img {
+    max-width: 100%;
+  }
+
+  div.header_registration {
+    width: 80%;
+    margin-bottom: 5px;
+  }
+
+  .header_enter {
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  .header_search {
+    margin-right: 0;
+    width: 92%;
+    margin-bottom: 5px;
+  }
+
+  label {
+    width: 95%;
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .section9_secondBlock {
+    order: 3;
+  }
+
+  div.section9_thirdBlock {
+    margin-bottom: 0px;
+  }
+}
