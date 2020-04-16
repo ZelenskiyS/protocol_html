@@ -87,6 +87,32 @@
       font-width: 600;
     }
   }
+  &_loggedBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__block{
+      display: flex;
+      flex-direction: column;
+      &.img{
+        height: 19px;
+        width: 32px;
+      }
+      &.counter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FF3B20;
+        border-radius: 7px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 3px;
+      }
+    }
+
+  }
+
 }
 
 select{
