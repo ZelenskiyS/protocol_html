@@ -96,6 +96,7 @@
 .header_loggedBox__block {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .header_loggedBox__block.img {
   height: 19px;
