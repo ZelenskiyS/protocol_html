@@ -1,6 +1,5 @@
 .section6 {
   background: #F4F0EB;
-  max-width: 1440px;
   height: 556px;
   padding: 30px 150px;
   font-family: "Open Sans", sans-serif;
@@ -109,5 +108,11 @@
       line-height: 22px;
       color: #BD462B;
     }
+  }
+}
+
+@media screen and (min-width: 1900px){
+  .section6{
+    padding:0 30vw;
   }
 }

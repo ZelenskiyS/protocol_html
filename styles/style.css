@@ -166,9 +166,9 @@ select {
     grid-area: enter;
   }
 }
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 1900px) {
   .header {
-    padding: 0 650px;
+    padding: 0 31.25vw;
   }
 }
 .navMobile {
@@ -750,7 +750,6 @@ select {
 }
 .section2 {
   height: 613px;
-  max-width: 1440px;
   background: #F4F0EB;
   display: flex;
   justify-content: center;
@@ -919,7 +918,6 @@ select {
 }
 
 .section4 {
-  max-width: 1440px;
   height: 100%;
   padding: 30px 150px;
   display: flex;
@@ -1022,6 +1020,11 @@ select {
     background: #FFCC60;
   }
 }
+@media screen and (min-width: 1900px) {
+  .section4 {
+    padding: 0 30vw;
+  }
+}
 .section5 {
   width: 100%;
   font-family: "Open Sans", sans-serif;
@@ -1084,7 +1087,6 @@ select {
 
 .section6 {
   background: #F4F0EB;
-  max-width: 1440px;
   height: 556px;
   padding: 30px 150px;
   font-family: "Open Sans", sans-serif;
@@ -1182,6 +1184,11 @@ select {
   color: #BD462B;
 }
 
+@media screen and (min-width: 1900px) {
+  .section6 {
+    padding: 0 30vw;
+  }
+}
 .section7 {
   max-width: 1000px;
   width: 100%;
@@ -1252,7 +1259,6 @@ select {
   font-family: "Open Sans", sans-serif;
   background: #F2DAA9;
   padding: 0 150px;
-  max-width: 1440px;
   min-height: 325px;
   display: flex;
   justify-content: space-between;
@@ -1363,6 +1369,11 @@ select {
   margin-bottom: 9px;
 }
 
+@media screen and (min-width: 1900px) {
+  .section9 {
+    padding: 0 32vw;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   width: 100%;

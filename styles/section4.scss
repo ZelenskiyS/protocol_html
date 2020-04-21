@@ -2,7 +2,6 @@
   display: none;
 }
 .section4{
-  max-width: 1440px;
   height: 100%;
   padding: 30px 150px;
   display: flex;
@@ -103,5 +102,11 @@
       }
     }
 
+  }
+}
+
+@media screen and (min-width: 1900px){
+  .section4{
+    padding:0 30vw;
   }
 }

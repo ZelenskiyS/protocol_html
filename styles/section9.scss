@@ -2,7 +2,6 @@
   font-family: "Open Sans", sans-serif;
   background: #F2DAA9;
   padding: 0 150px;
-  max-width: 1440px;
   min-height: 325px;
   display: flex;
   justify-content: space-between;
@@ -128,3 +127,11 @@
 
   }
 }
+
+@media screen and (min-width: 1900px){
+  .section9{
+    padding:0 32vw;
+  }
+}
+
+
