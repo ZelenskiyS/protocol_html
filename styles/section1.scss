@@ -1,9 +1,10 @@
 .section1{
-  height: 467px;
+  margin: 0 auto;
+  height: 100%;
   width: 100%;
   max-width: 1440px;
   box-sizing: border-box;
-  padding: 16px 10.4vw 8.5vw 10.4vw;
+  padding: 16px 150px;
   font-family: 'Open Sans', sans-serif;
   display: grid;
   grid-template-areas:
@@ -428,6 +429,6 @@
 
 
   div.section9_thirdBlock {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
