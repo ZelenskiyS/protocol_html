@@ -125,6 +125,11 @@
   line-height: 16px;
   color: #FFFFFF;
 }
+.header_loggedBox__profile {
+  width: 68px;
+  height: 68px;
+  background: url("../img/Oval.png");
+}
 
 select {
   margin-left: 1.7vw;
