@@ -95,6 +95,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       &.img{
         height: 19px;
         width: 32px;
@@ -102,15 +103,16 @@
       &.link{
         width: 40px;
         height: 40px;
-        border-radius: 10px;
         background-color: white;
         transition: 0.4s;
         &:hover{
-
           background-color: #FFF2D9;
+          border-radius: 20px;
+          transform: scale(1.2);
         }
       }
       &.counter{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -119,7 +121,6 @@
         font-size: 12px;
         line-height: 16px;
         color: #FFFFFF;
-        margin-bottom: 3px;
       }
     }
 
@@ -138,6 +139,7 @@ select{
   border:1px solid #D8D8D8;
   font-size: 16px;
 }
+
 
 @media screen and (max-width: 768px){
   .header{
