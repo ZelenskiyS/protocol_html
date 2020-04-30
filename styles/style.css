@@ -11,37 +11,6 @@
   min-width: 223.85px;
   height: 69.67px;
 }
-.header_search {
-  display: flex;
-  width: 420px;
-  height: 40px;
-  box-sizing: border-box;
-  margin-right: 114px;
-}
-.header_search__searchButton {
-  width: 40px;
-  border: 1px solid #D8D8D8;
-  border-right: none;
-  box-sizing: border-box;
-  text-align: center;
-  color: #fff;
-  border-radius: 4px 0 0 4px;
-  cursor: pointer;
-  font-size: 20px;
-  background: #F7F7F7 url("../img/search (2) 1.svg") no-repeat center;
-}
-.header_search__searchTerm {
-  font-size: 16px;
-  line-height: 19px;
-  width: 100%;
-  border: 1px solid #D8D8D8;
-  background: #F7F7F7;
-  border-left: none;
-  padding: 5px;
-  border-radius: 0 5px 5px 0;
-  outline: none;
-  color: black;
-}
 .header_registration {
   display: flex;
   background: #F2C25B;
@@ -86,7 +55,7 @@
   color: white;
   font-size: 14px;
   line-height: 16px;
-  font-width: 600;
+  font-weight: 600;
 }
 .header_loggedBox {
   display: flex;
@@ -133,7 +102,7 @@
 
 select {
   margin-left: 1.7vw;
-  margin-right: 1vw;
+  margin-right: 30vw;
   width: 60px;
   height: 40px;
   background: #F5F5F5;
@@ -148,7 +117,7 @@ select {
     padding: 11px 15px 18px 15px;
     height: 100%;
     display: grid;
-    grid-template-areas: "logo langChose" "search search" "registration enter";
+    grid-template-areas: "logo langChose" "registration enter";
   }
   .header_logo {
     grid-area: logo;
@@ -159,15 +128,6 @@ select {
     grid-area: langChose;
     float: right;
   }
-  .header_search {
-    grid-area: search;
-    margin-bottom: 16px;
-    margin-right: 0;
-    width: 100%;
-  }
-  .header_registration {
-    grid-area: registration;
-  }
   .header_enter {
     margin-left: 60px;
     grid-area: enter;
@@ -175,7 +135,11 @@ select {
 }
 @media screen and (min-width: 1900px) {
   .header {
-    padding: 0 31.25vw;
+    padding: 0 25vw;
+  }
+
+  select {
+    margin-right: 20vw;
   }
 }
 .navMobile {

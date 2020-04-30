@@ -10,37 +10,6 @@
       min-width: 223.85px;
       height: 69.67px;
   }
-  &_search{
-    display: flex;
-    width: 420px;
-    height: 40px;
-    box-sizing: border-box;
-    margin-right: 114px;
-    &__searchButton{
-      width: 40px;
-      border: 1px solid #D8D8D8;
-      border-right:none;
-      box-sizing: border-box;
-      text-align: center;
-      color: #fff;
-      border-radius: 4px 0 0 4px;
-      cursor: pointer;
-      font-size: 20px;
-      background: #F7F7F7 url("../img/search (2) 1.svg") no-repeat center;
-    }
-    &__searchTerm{
-      font-size: 16px;
-      line-height: 19px;
-      width: 100%;
-      border: 1px solid #D8D8D8;
-      background: #F7F7F7;
-      border-left: none;
-      padding: 5px;
-      border-radius: 0 5px 5px 0;
-      outline: none;
-      color: black;
-    }
-  }
   &_registration{
     display: flex;
     background: #F2C25B;
@@ -84,7 +53,7 @@
       color:white;
       font-size: 14px;
       line-height: 16px;
-      font-width: 600;
+      font-weight: 600;
     }
   }
   &_loggedBox{
@@ -135,7 +104,7 @@
 
 select{
   margin-left: 1.7vw;
-  margin-right: 1vw;
+  margin-right: 30vw;
   width: 60px;
   height: 40px;
   background: #F5F5F5;
@@ -152,7 +121,6 @@ select{
     height: 100%;
     display: grid;
     grid-template-areas: "logo langChose"
-                          "search search"
                           "registration enter";
     &_logo{
       grid-area: logo;
@@ -163,15 +131,6 @@ select{
       grid-area: langChose;
       float: right;
     }
-    &_search{
-      grid-area: search;
-      margin-bottom: 16px;
-      margin-right: 0;
-      width: 100%;
-    }
-    &_registration{
-      grid-area:registration;
-    }
     &_enter{
       margin-left: 60px;
       grid-area: enter;
@@ -181,7 +140,10 @@ select{
 
 @media screen and (min-width: 1900px){
   .header{
-    padding:0 31.25vw;
+    padding:0 25vw;
+  }
+  select {
+    margin-right: 20vw;
   }
 }
 
