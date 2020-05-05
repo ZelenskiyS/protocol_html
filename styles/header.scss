@@ -5,6 +5,14 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  &_Mob{
+    display: flex;
+    align-items: center;
+  }
+  &_button{
+    display: flex;
+    align-items: center;
+  }
     &_logo{
       background: url("../img/logo_Protocol.svg");
       min-width: 223.85px;
@@ -119,28 +127,41 @@ select{
   .header{
     padding: 11px 15px 18px 15px;
     height: 100%;
-    display: grid;
-    grid-template-areas: "logo langChose"
-                          "registration enter";
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &_Mob{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &_button{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     &_logo{
-      grid-area: logo;
       background-repeat: no-repeat;
       margin-bottom: 16.2px;
     }
     & select{
-      grid-area: langChose;
       float: right;
+      margin-right: 0;
     }
     &_enter{
       margin-left: 60px;
-      grid-area: enter;
+    }
+    &_loggedBox{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
   }
 }
 
 @media screen and (min-width: 1800px){
   .header{
-    padding:0 25vw;
+    padding:0 23vw;
   }
   select {
     margin-right: 20vw;

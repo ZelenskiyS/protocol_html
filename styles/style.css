@@ -116,21 +116,35 @@ select {
   .header {
     padding: 11px 15px 18px 15px;
     height: 100%;
-    display: grid;
-    grid-template-areas: "logo langChose" "registration enter";
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header_Mob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_buttonMob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .header_logo {
-    grid-area: logo;
     background-repeat: no-repeat;
     margin-bottom: 16.2px;
   }
   .header select {
-    grid-area: langChose;
     float: right;
+    margin-right: 0;
   }
   .header_enter {
     margin-left: 60px;
-    grid-area: enter;
+  }
+  .header_loggedBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -1053,7 +1067,7 @@ select {
 .section5_img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 0px;
 }
 
 .section6 {
@@ -1155,9 +1169,9 @@ select {
   color: #BD462B;
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1800px) {
   .section6 {
-    padding: 0 30vw;
+    padding: 30px 30vw;
   }
 }
 .section7 {
