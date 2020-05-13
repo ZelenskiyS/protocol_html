@@ -6,6 +6,14 @@
   display: flex;
   align-items: center;
 }
+.header_Mob {
+  display: flex;
+  align-items: center;
+}
+.header_button {
+  display: flex;
+  align-items: center;
+}
 .header_logo {
   background: url("../img/logo_Protocol.svg");
   min-width: 223.85px;
@@ -125,7 +133,7 @@ select {
     justify-content: space-between;
     align-items: center;
   }
-  .header_buttonMob {
+  .header_button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,11 +157,21 @@ select {
 }
 @media screen and (min-width: 1800px) {
   .header {
-    padding: 0 25vw;
+    padding: 0 23vw;
   }
 
   select {
     margin-right: 20vw;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .header {
+    padding: 0vw;
+    justify-content: space-around;
+  }
+
+  select {
+    margin-right: 10vw;
   }
 }
 .navMobile {
