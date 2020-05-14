@@ -168,4 +168,14 @@ select{
   }
 }
 
+@media screen and (max-width: 1150px){
+  .header{
+    padding:0vw;
+    justify-content: space-around;
+  }
+  select {
+    margin-right: 10vw;
+  }
+}
+
 

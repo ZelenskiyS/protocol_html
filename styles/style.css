@@ -164,6 +164,16 @@ select {
     margin-right: 20vw;
   }
 }
+@media screen and (max-width: 1150px) {
+  .header {
+    padding: 0vw;
+    justify-content: space-around;
+  }
+
+  select {
+    margin-right: 10vw;
+  }
+}
 .navMobile {
   display: none;
 }
