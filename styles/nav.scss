@@ -138,3 +138,13 @@
   color: #FFFFFF;
 
 }
+
+
+@media screen and (max-width: 959px){
+  .nav {
+    &_list__item a {
+      font-size: 75%;
+    }
+  }
+}
+
