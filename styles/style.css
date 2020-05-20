@@ -1297,6 +1297,7 @@ select {
   font-size: 10px;
   line-height: 14px;
   text-align: justify;
+  margin-left: 25px;
 }
 .section9_firstBlock__heading {
   font-weight: bold;
@@ -1327,6 +1328,7 @@ select {
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 22px;
+  margin-left: 25px;
 }
 .section9_secondBlock__heading {
   font-weight: bold;
@@ -1355,6 +1357,7 @@ select {
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 70px;
+  margin-left: 25px;
 }
 .section9_thirdBlock__heading {
   font-weight: bold;
