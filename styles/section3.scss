@@ -64,6 +64,7 @@
 .b_text {
   padding: 22px 22px 22px 22px;
 
+
   & h2 {
       margin: 0px 0px 20px 0px;font-family: Open Sans;
       font-style: normal;
@@ -131,3 +132,17 @@
 .b_img2 {
   height: 130px;
 }
+ @media screen and (max-width: 1150px) {
+
+   .b_text{
+     position: relative;
+     & h2{
+       position: absolute;
+       top: -35px;
+       left: 20px;
+     }
+   }
+
+   
+
+ }

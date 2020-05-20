@@ -41,6 +41,7 @@
     display: none;
   }
   .navMobile{
+    margin-top: 16px;
     display: flex;
     float: right;
     align-items: center;
@@ -140,7 +141,7 @@
 }
 
 
-@media screen and (max-width: 959px){
+@media screen and (max-width: 960px){
   .nav {
     &_list__item a {
       font-size: 75%;
