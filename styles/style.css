@@ -328,7 +328,7 @@ select {
   padding: 16px 150px;
   font-family: "Open Sans", sans-serif;
   display: grid;
-  grid-template-areas: "empty  img" "heading  img" "paragraph img" "button  img";
+  grid-template-areas: "heading  img" "paragraph img" "button  img";
 }
 .section1_heading {
   font-weight: bold;
@@ -423,10 +423,6 @@ select {
 
   .section4_textblock__heading {
     margin: 0;
-  }
-
-  .section5 {
-    padding: 10px;
   }
 
   section.section6 {
