@@ -1,8 +1,13 @@
 .section6 {
   background: #F4F0EB;
   height: 556px;
-  padding: 30px 150px;
   font-family: "Open Sans", sans-serif;
+  padding: 1px 0;
+  &_container{
+    max-width: 1140px;
+    margin:40px auto;
+
+  }
 
   &_heading {
     font-weight: bold;
@@ -111,8 +116,3 @@
   }
 }
 
-@media screen and (min-width: 1800px){
-  .section6{
-    padding: 30px 30vw;
-  }
-}

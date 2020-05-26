@@ -1,10 +1,11 @@
 .header {
   width: 100%;
   height: 112px;
-  padding: 0 150px;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .header_Mob {
   display: flex;
@@ -110,7 +111,6 @@
 
 select {
   margin-left: 1.7vw;
-  margin-right: 30vw;
   width: 60px;
   height: 40px;
   background: #F5F5F5;
@@ -155,15 +155,6 @@ select {
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 1800px) {
-  .header {
-    padding: 0 23vw;
-  }
-
-  select {
-    margin-right: 20vw;
-  }
-}
 @media screen and (max-width: 1150px) {
   .header {
     padding: 0vw;
@@ -187,8 +178,8 @@ select {
   justify-content: center;
 }
 .nav_list {
-  min-width: 1024px;
-  max-width: 1040px;
+  min-width: 1140px;
+  max-width: 1140px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -941,11 +932,15 @@ select {
 
 .section4 {
   height: 100%;
-  padding: 30px 150px;
-  display: flex;
-  flex-direction: row-reverse;
   font-family: "Open Sans", sans-serif;
   background: #F4F0EB;
+  padding-bottom: 1px;
+}
+.section4_container {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 30px auto;
 }
 .section4 img {
   width: inherit;
@@ -1042,11 +1037,6 @@ select {
     background: #FFCC60;
   }
 }
-@media screen and (min-width: 1900px) {
-  .section4 {
-    padding: 0 25vw;
-  }
-}
 .section5 {
   width: 100%;
   font-family: "Open Sans", sans-serif;
@@ -1110,8 +1100,12 @@ select {
 .section6 {
   background: #F4F0EB;
   height: 556px;
-  padding: 30px 150px;
   font-family: "Open Sans", sans-serif;
+  padding: 1px 0;
+}
+.section6_container {
+  max-width: 1140px;
+  margin: 40px auto;
 }
 .section6_heading {
   font-weight: bold;
@@ -1206,13 +1200,8 @@ select {
   color: #BD462B;
 }
 
-@media screen and (min-width: 1800px) {
-  .section6 {
-    padding: 30px 30vw;
-  }
-}
 .section7 {
-  max-width: 1000px;
+  max-width: 1140px;
   width: 100%;
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
@@ -1267,23 +1256,25 @@ select {
 }
 
 .section8 {
-  max-width: 1440px;
   width: 100%;
   margin-bottom: -8px;
 }
 .section8_waves {
   background: url("../img/wawes.svg");
-  max-width: 1440px;
   height: 188px;
 }
 
 .section9 {
   font-family: "Open Sans", sans-serif;
   background: #F2DAA9;
-  padding: 0 150px;
   min-height: 325px;
+  padding: 1px 0;
+}
+.section9_container {
   display: flex;
   justify-content: space-between;
+  max-width: 1140px;
+  margin: 30px auto;
 }
 .section9_img {
   grid-area: img;
@@ -1348,7 +1339,9 @@ select {
   width: 15vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+}
+.section9_secondBlock__social a {
+  margin-right: 0.5vw;
 }
 .section9_thirdBlock {
   display: flex;
@@ -1394,11 +1387,6 @@ select {
   margin-bottom: 9px;
 }
 
-@media screen and (min-width: 1900px) {
-  .section9 {
-    padding: 0 32vw;
-  }
-}
 body {
   font-family: "Roboto", sans-serif;
   width: 100%;

@@ -1,11 +1,15 @@
 .section9 {
   font-family: "Open Sans", sans-serif;
   background: #F2DAA9;
-  padding: 0 150px;
   min-height: 325px;
-  display: flex;
-  justify-content: space-between;
+  padding: 1px 0;
 
+  &_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 30px auto;
+  }
   &_img {
     grid-area: img;
   }
@@ -79,7 +83,9 @@
       width: 15vw;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      & a{
+        margin-right: 0.5vw;
+      }
     }
   }
 
@@ -131,10 +137,5 @@
   }
 }
 
-@media screen and (min-width: 1900px){
-  .section9{
-    padding:0 32vw;
-  }
-}
 
 
