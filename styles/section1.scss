@@ -1,61 +1,67 @@
-.section1{
-  margin: 0 auto;
-  height: 100%;
+.section1 {
   width: 100%;
-  max-width: 1440px;
-  box-sizing: border-box;
-  padding: 16px 150px;
-  font-family: 'Open Sans', sans-serif;
-  display: grid;
-  grid-template-areas:
-          "heading  img"
-          "paragraph img"
-          "button  img";
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  height: 468px;
+  max-width: 1120px;
+
   &_heading{
+    margin-top: 107px;
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
     color: #383838;
-    grid-area:heading;
+    max-width: 679px;
   }
-  &_paragraph{
-    font-weight: normal;
+  .section5_paragraph {
+    margin-top: 33px;
     font-size: 18px;
     line-height: 25px;
     color: #383838;
-    grid-area:paragraph;
+    max-width: 697px;
   }
-  &_button{
+  &_button {
+    margin-top: 33px;
+    grid-area: button;
+    cursor: pointer;
     background: #F2C25B;
     border-radius: 4px;
-    width: 307px;
+    max-width: 307px;
     height: 48px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     transition: 0.4s;
-    grid-area:button;
     &:hover{
       background: #FFCC60;
     }
-    &__link{
-      text-decoration: none;
-      color:black;
-      font-family: Roboto, serif;
+
+    a {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 600;
       font-size: 14px;
       line-height: 16px;
       text-align: center;
-      font-weight: 600;
+      color: #000000;
+      text-decoration: none;
     }
   }
-
-  &_img{
-    grid-area:img;
-    background: url("../img/man_idea.svg");
-    width: 365px;
-    height: 405px;
+  &_img {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
   }
 }
+
 
 @media screen and (max-width: 1050px) {
   .b_img img {
