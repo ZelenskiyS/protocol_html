@@ -112,6 +112,7 @@
   align-items: center;
   height: 70px;
   transition: 0.4s;
+  position: relative;
 }
 .header_loggedBox__profile:hover {
   background: #FFF6EA;
@@ -130,10 +131,48 @@
 .header_loggedBox__profile__text {
   cursor: pointer;
   font-family: Open Sans, sans-serif;
+  text-decoration: none;
+  color: black;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 60px;
+  width: 223px;
+  height: 255px;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  padding: 25px;
+  transition: 0.4s;
+}
+.sub-menu_list {
+  list-style: none;
+}
+.sub-menu_list__link {
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.sub-menu_line {
+  border: 1px solid #E6E6E6;
+}
+
+.header_loggedBox__profile__text:focus ~ .sub-menu,
+.header_loggedBox__profile__text:active ~ .sub-menu,
+.header_loggedBox__profile__text:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 select {
@@ -347,6 +386,7 @@ select {
   }
 }
 .section1 {
+  z-index: -1;
   width: 100%;
   font-family: "Open Sans", sans-serif;
   display: flex;
