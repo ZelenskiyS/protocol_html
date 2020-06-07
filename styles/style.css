@@ -70,6 +70,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .header_loggedBox__block {
   display: flex;
@@ -104,22 +105,30 @@
   color: #FFFFFF;
 }
 .header_loggedBox__profile {
-  width: 100%;
+  width: 208px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 70px;
+  transition: 0.4s;
+}
+.header_loggedBox__profile:hover {
+  background: #FFF6EA;
+  border-radius: 35px;
 }
 .header_loggedBox__profile__img {
+  margin-right: 10px;
   width: 52px;
   height: 52px;
-  background: url("../img/Oval.png");
-  background-position: center;
+  background: url("../img/Oval.png") center;
   background-size: contain;
   border: 1px solid #E2B350;
   border-radius: 50%;
+  cursor: pointer;
 }
 .header_loggedBox__profile__text {
+  cursor: pointer;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: bold;

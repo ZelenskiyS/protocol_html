@@ -69,6 +69,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     &__block{
       display: flex;
       flex-direction: column;
@@ -102,11 +103,18 @@
       }
     }
     &__profile{
-      width: 100%;
+      width: 208px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      height: 70px;
+      transition:0.4s;
+      &:hover{
+        background: #FFF6EA;
+        border-radius: 35px;
+      }
+
       &__img{
         margin-right: 10px;
         width: 52px;
@@ -115,8 +123,10 @@
         background-size: contain;
         border: 1px solid #E2B350;
         border-radius: 50%;
+        cursor: pointer;
       }
       &__text{
+        cursor: pointer;
         font-family: Open Sans, sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -124,9 +134,7 @@
         line-height: 19px;
       }
     }
-
   }
-
 }
 
 select{
